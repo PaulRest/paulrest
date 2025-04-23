@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
   "manifestVersion": "1.16",
   "version": "1.0.0",
-  "id": "REPLACE-WITH-GUID",
+  "id": "890b54c5-e494-4392-9bcf-05efc8296c69",
   "packageName": "com.yourcompany.copilotproxy",
   "developer": {
     "name": "Your Name",
@@ -25,12 +25,13 @@
   "accentColor": "#6264A7",
   "bots": [
     {
-      "botId": "REPLACE-WITH-AZURE-APP-ID",
+      "botId": "728eff07-48f5-431b-9723-f22d0276705f",
       "scopes": ["personal", "team", "groupchat"],
       "supportsFiles": false,
       "isNotificationOnly": false
     }
   ],
   "permissions": ["identity", "messageTeamMembers"],
-  "validDomains": ["REPLACE-WITH-YOUR-APP-SERVICE.azurewebsites.net"]
+  "validDomains": ["copilotproxybot.azurewebsites.net"]
 }
+
